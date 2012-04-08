@@ -1,0 +1,2 @@
+<tpl:form action="javier.html" method="post">Aqui el form</tpl:form><tpl:a href="javier.html"><tpl:small>Aqui el titulo 1</tpl:small></tpl:a><tpl:a href="jota.html">Aqui el titulo</tpl:a>
+<tpl:small>texto</tpl:small>

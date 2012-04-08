@@ -1,0 +1,169 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana;
+	font-size: 12px;        
+}
+
+#page{
+	padding: 40px;
+	margin: 0 auto;	
+}
+#pageinner{
+    width:980px;
+    margin:0 auto;    
+}
+#start{
+	padding: 0 40px;
+}
+
+#logo{
+	float: left;
+	width: 180px;	
+}
+#logo h1{	
+	height: 108px;
+	background: url("images/lepo.gif") no-repeat;	
+}
+
+#login{
+	text-align: right;
+	margin-left: 180px;
+	height: 100px;
+	padding: 20px 0 0 0;	
+}
+#loginform{
+	text-align: left;
+	float: right;
+	width: 500px;
+	margin: 0;
+}
+#loginform  label{
+	display: none;
+}
+#loginform input{
+	border: 0 none;	
+}
+#loginform_submit{
+	width: 90px;
+	padding: 6px;
+	background: #FF473E;
+	text-transform: uppercase;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#content{
+		
+}
+#fma{
+	position: relative;
+	background: #464A47 url("images/fma.gif") repeat-x;
+	height: 240px;
+}
+#fma h2{
+	background: #CCC;	
+	width: 100%;
+	height: 220px;
+	background: url("images/quehaypahacer.gif") center center no-repeat;
+}
+#final{
+	padding: 10px 40px;	
+}
+
+h1{
+	margin: 0;
+	font-size: 36px;
+}
+h1 span, h2 span{
+	display: none;
+}
+h2{
+	font-size: 30px;
+	margin: 0;	
+}
+p{
+	margin: 10px 0;	
+}
+a{
+	color: #464A47;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+.wrapper{
+	width: 100%;
+	overflow: hidden;	
+}
+.roundcorner{
+	position: relative;	
+}
+.border{
+	border: 1px solid #FF473E;
+	padding: 5px;	
+}
+.tl, .tr, .bl, .br{
+	position: absolute;
+	width: 5px;
+	height: 5px;	
+}
+.tl, .tr{
+	top: 0;	
+}
+.tl{	
+	left: 0;
+	background: url("images/tlborder.gif") no-repeat;	
+}
+.tr{	
+	right: 0;
+	background: url("images/trborder.gif") no-repeat;	
+}
+.bl, .br{
+	bottom: 0;	
+}
+.bl{	
+	left: 0;
+	background: url("images/blborder.gif") no-repeat;	
+}
+.br{	
+	right: 0;
+	background: url("images/brborder.gif") no-repeat;
+}
+.l, .r{
+	position: absolute;
+	width: 11px;
+	top: 0;	
+	height: 240px;
+}
+.l{
+	left: 0;
+	background: url("images/l.gif");	
+}
+.r{
+	right: 0;
+	background: url("images/r.gif");	
+}
+.c{
+	padding: 10px;
+}
+
+.inputlogin{
+	float: left;
+	width: 200px;
+	margin: 0 5px 0 0;	
+}
+
+.lista{
+	margin: 0;
+	padding: 0;
+}
+.inactiva li{
+	display: inline;
+	color: #A5A5A5;
+	font-weight: bold;
+}
+.inactiva li a{
+	color: #A5A5A5;
+}
